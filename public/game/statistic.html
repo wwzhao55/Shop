@@ -1,0 +1,137 @@
+<html>
+<head>
+  <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+<style type="text/css" >
+body{
+width:100%;
+margin:0;
+padding:0;
+}
+h1{
+margin-top:30px;
+font-family:' Microsoft YaHei','微软雅黑';
+text-align:center;
+font-size: 18px;
+}
+p{
+margin-left:100px;
+font-family:' Microsoft YaHei','微软雅黑';
+color:#626262;
+}
+table.tab{
+border-collapse:collapse;
+width:80%;
+margin-top:30px;
+margin-left:100px;
+margin-right:50px;
+}
+table.tab thead th{
+ font-family:' Microsoft YaHei','微软雅黑';
+color:#626262;
+line-height:30px;
+text-align:center;
+font-size: 18px;
+border:1px #e8e8e8 solid;
+}
+table.tab tr td{
+ height:100%;
+ color : #ffffff;
+ font-family:' Microsoft YaHei','微软雅黑';
+color:#707070;
+text-align:center;
+font-size: 14px;
+border:1px #e8e8e8 solid;
+}
+</style>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/jquery.bootpag.min.js"></script>
+</head>
+<body>
+
+<h1>数 据 统 计</h1>
+
+<div style='text-align:center'>
+
+	<form action="data.php" method="get">
+		<input type="hidden" name="param" value="{&quot;type&quot;:&quot;change_game_state&quot;}">
+  		<input type="submit" value="改变游戏状态" />
+	</form>
+</div>
+
+
+<p>总参与人数 : <span id='data_attender'></span></p>
+<p>有效人数 : <span id='data_valid'></span></p>
+<p>总发放金额 : <span id='data_capital'></span></p>
+<p>最高金额 : <span id='data_remain'></span></p>
+	<div id="content" style='min-height:400px'>
+	<table class="tab">
+	  <thead>
+		<tr>
+		  <th>日期</th>
+		  <th>参与人数</th>
+      <th>有效人数</th>
+		  <th>发放金额</th>
+		  <th>*</th>
+		  <th>*</th>
+		</tr>
+	  </thead>
+	<tbody id="show"></tbody>
+	</table>
+</div>
+
+<div id="page-selection" style='text-align:center'></div>
+</body>
+<script>
+
+// init bootpag
+         var totalpage;
+         var a;
+         var b;
+         var c;
+         var valid_num;
+function initdata(p){
+        $.ajax({
+              type:'POST',
+              url:'data.php?param={"type":"data_statistics","page":'+p+'}',
+             // data:JSON.stringify(json),
+             /*data:{
+              type:"data_statistics",
+              page:p
+             },*/
+              dataType:"json",
+              success:function(data){
+                       totalpage=data.page_count;
+                       a=data.attender;
+                       b=data.capital;
+                       c=data.remain;
+                       valid_num=data.valid_num;
+                       $('#data_attender').html(a);
+                       $('#data_capital').html(b);
+                       $('#data_remain').html(c);
+                       $('#data_valid').html(valid_num);
+
+                       $('#page-selection').bootpag({
+				            total: totalpage
+				        }).on("page", function(event, num){
+				             initdata(num);
+				        });
+                        bianli(JSON.parse(data.list));
+             }
+         });
+
+		function bianli(list){
+			$("#show").html('');
+		     $.each(list,function(key,value){
+		     	value=JSON.parse(value);
+		     	value.max=value.max?value.max:" ";
+		     	value.avg=value.avg?value.avg:" ";
+
+		     var example1="<tr><td>"+value.date+"</td><td>"+value.people_num+"</td><td>"+value.valid_num+"</td><td>"+value.money+"</td><td>"+value.max+"</td><td>"+value.avg+"</td></tr>";  
+		     $("#show").append(example1);
+		});
+		}
+}
+ initdata(1);
+</script>
+</html>

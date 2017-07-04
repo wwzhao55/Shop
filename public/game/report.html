@@ -1,0 +1,118 @@
+<html>
+<head>
+  <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+<style type="text/css" >
+body{
+width:100%;
+margin:0;
+padding:0;
+}
+h1{
+margin-top:30px;
+font-family:' Microsoft YaHei','微软雅黑';
+text-align:center;
+font-size: 18px;
+}
+button{
+margin-left:200px;
+}
+table.tab{
+border-collapse:collapse; 
+width:90%;
+margin-top:30px;
+margin-left:50px;
+margin-right:50px;
+}
+table.tab thead th{
+ font-family:' Microsoft YaHei','微软雅黑';
+color:#626262;
+line-height:30px;
+text-align:center;
+font-size: 18px;
+border:1px #e8e8e8 solid;
+}
+table.tab tr td{
+ height:100%;
+ color : #ffffff;
+ font-family:' Microsoft YaHei','微软雅黑';
+color:#707070;
+text-align:center;
+font-size: 14px;
+border-left:1px #e8e8e8 solid;
+border-right:1px #e8e8e8 solid;
+}
+hr{
+width:90%;
+margin-left:50px;
+margin-right:50px;
+border:1px #e8e8e8 solid;
+margin-top:0px;
+}
+a{
+  padding-left:50px;
+}
+</style>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/jquery.bootpag.min.js"></script>
+</head>
+<body>
+
+<h1>数 据 报 表</h1>
+
+<a type="button" href='http://m.youba.ren/game/data.php?param={"type":"excel"}'>导出EXCEL</a>
+<div id="content" style='min-height:400px'>
+  <table class="tab">
+    <thead>
+    <tr>
+      <th>序号</th>
+      <th>电话号码</th>
+      <th>总游戏次数</th>
+	    <th>分享次数</th>
+      <th>最高金额</th>
+    </tr>
+  </thead>
+  <tbody id="show"></tbody> 
+  </table><hr>
+</div>
+<div id="page-selection" style='text-align:center'></div>
+</body>
+<script>
+// init bootpag
+         var totalpage;
+function initdata(p){
+        $.ajax({
+              type:'GET',
+              url:'data.php?param={"type":"data_table","page":'+p+'}',
+             // data:JSON.stringify(json),
+             /*data:{ 
+              "param":{
+                "type":"data_table",
+                "page":p
+              } 
+             },*/
+              dataType:"json",
+              success:function(data){
+                       totalpage=data.page_count;
+                       $('#page-selection').bootpag({
+                          total: totalpage
+                      }).on("page", function(event, num){
+                           initdata(num);
+                      }); 
+
+                       bianli(JSON.parse(data.list));
+              }
+        });
+      
+        function bianli(list){
+            $("#show").html('');
+             $.each(list,function(key,value){
+             value=JSON.parse(value);
+                var index=key+1;
+                  var example1="<tr><td>"+index+"</td><td>"+value.phone+"</td><td>"+value.push+"</td><td>"+value.invite+"</td><td>"+value.highest+"</td></tr>";  
+                 $("#show").append(example1);
+              });
+        }
+ }
+ initdata(1);
+</script>
+</html>

@@ -1,0 +1,273 @@
+a {
+    color: initial;
+    text-decoration: none !important;
+}
+#coupon-choose,#coupon-detail{
+	width:750px;
+	margin:0 auto;
+	/*font-family: "微软雅黑Regular";*/
+}
+.coupon-shop{
+	height:100px;
+	line-height: 100px;
+	width:100%;
+	background-color: #fff;
+	font-size: 22px;
+}
+.coupon-block{
+	border-top:1px solid #c8c7cb;
+	border-bottom:1px solid #c8c7cb;
+	padding-left: 30px;
+	background-color: #fff;
+}
+.coupon-detail-block{
+	/*border-top:1px solid #c8c7cb;*/
+	border-bottom:1px solid #c8c7cb;
+	margin:  0 30px;
+    padding-bottom: 30px;
+	background-color: #fff;
+	height:240px;
+	}
+.coupon-list{
+	list-style-type: none;
+	height:180px;
+}
+.coupon-list a{
+    float:left;
+}
+.coupon-list a span{
+    display: inline-block;
+}
+hr.line {
+    margin: 30px 30px 0 0px;
+    color:#c8c7cb;
+}
+/*.coupon-detail-list{
+	list-style-type: none;
+	height:240px;
+}*/
+.coupon-list:not(:last-child),.coupon-detail-list:not(:last-child){
+    border-bottom:1px solid gray;
+}
+.coupon-name {
+    font-size: 30px;
+    color: #212121;
+    padding-top:28px;
+    padding-bottom: 24px;
+    line-height: 30px;
+}
+.coupon-dollar {
+    color: #fe6c50;
+    font-size: 30px;
+    line-height: 36px;
+}
+.coupon-value{
+	color:#ff6c50;
+	font-size: 36px;
+    line-height: 36px;
+
+}
+.coupon-introduction{
+	color:#aaaaaa;
+	font-size: 22px;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.coupon-use-condition{
+	color:#262626;
+	font-size: 24px;
+    line-height: 36px;
+}
+.coupon-deadline{
+	color:#aaa;
+	font-size: 22px;
+	margin-top:20px;
+    line-height: 22px;
+}
+.coupon-take {
+    float: right;
+    margin-right: 30px;
+    margin-top:60px;
+}
+.coupon-times {
+    right: 0;
+    float: right;
+    font-size: 22px;
+    color: #fe6c4e;
+    margin-right: 30px;
+    width: 120px;
+    text-align: center;
+    padding-top: 10px;
+    position:absolute;
+        margin-top: 120px;
+}
+.coupon-finish {
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    width: 120px;
+    text-align: center;
+    font-size: 30px;
+    margin-top:76px;
+}
+.coupon-detail-block span{
+    display: inline-block;
+}
+.coupon-detail-condition{
+	height:172px;
+    padding-top: 30px;
+    margin:0 30px;
+	border-bottom:1px solid #c8c7cb;
+	/*margin-top:-30px;*/
+}
+.coupon-condition-introduction{
+	font-size: 24px;
+	color:#898989;
+	padding-top:30px;
+}
+#coupon-share{
+	width:750px;
+	background-color:#fee192;
+	margin: 0 auto;
+	height: 100%;
+	bottom: 0;
+    position: absolute;
+}
+.share-body {
+    padding-top: 122px;
+    margin-left: 22%;
+    width:56%;
+    /*height:640px;*/
+}
+.share-word {
+    text-align: center;
+    margin-top: -130px;
+}
+.share-name,.share-send {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    /*font-family:"平方 常规";*/
+}
+.take-btn {
+    float: left;
+    margin-top: 120px;
+    margin-left: 26.6%;
+}
+.use-description-image {
+    margin-top: 210px;
+    text-align: center;
+}
+.use-description-word {
+    margin-left: 10px;
+    color: #f34938;
+    font-size: 22px;
+    /*font-family:"平方 常规";*/
+}
+.weui_dialog_title {
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+     /*font-family:"平方 常规";*/
+}
+.weui_dialog_hd {
+    padding-top: 42px;
+}
+.weui_dialog_bd {
+    padding: 22px 20px;
+    font-size: 26px;
+    color: #000000;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.weui_btn_dialog.primary {
+    color: #007cff;
+}
+.weui_dialog_ft {
+    position: relative;
+    line-height: 88px;
+    margin-top: 28px;
+    font-size: 34px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 88px;
+    color: #007cff;
+}
+.weui_dialog, .weui_toast {
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    opacity: 0;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    visibility: hidden;
+    margin: 0;
+    left: 7.5%;
+    top: 30%;
+    z-index: 100;
+    border-radius: 20px;
+}
+#coupon-success {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.share-logo {
+    margin: 30px 30px 60px 30px;
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+}
+.share-coupon-name {
+    font-size: 24px;
+    color: #303030;
+   /* font-family: "苹方 常规"*/
+}
+.coupon-success-body {
+    margin-left: 30px;
+    border-bottom: 1px solid #c8c7cb;
+    height:187px;
+}
+.coupon-success-title {
+    height: 178px;
+}
+.coupon-goto {
+    float: right;
+    margin-right: 30px;
+    margin-top: -108px;
+}
+.coupon-name-1 {
+    font-size: 30px;
+    color: #212121;
+    /* padding-top: 28px; */
+    padding-bottom: 24px;
+    line-height: 30px;
+}
+/*toast 弹窗设置*/
+.weui_toast_content {
+  margin: 0 0 15px;
+  font-size:40px;
+}
+.weui_toast {
+  position: fixed;
+  z-index: 3;
+  width: 20.8em !important;
+  min-height: 18.8em !important;
+  top: 30%;
+  left: 50%;
+  margin-left: -10.4em !important;
+  background: rgba(40, 40, 40, 0.75);
+  text-align: center;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+.weui_icon_toast {
+  margin: 2.2em 0 0 0 !important;
+  display: block;
+  margin-bottom:2.2em !important;
+}
+.weui_icon_toast:before {
+    font-size: 100px;
+}

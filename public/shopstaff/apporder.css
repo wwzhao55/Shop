@@ -1,0 +1,151 @@
+.navgation{
+  /*background-color:pink;*/
+  margin-top: 60px;
+  height:70px;
+  width: 100%;
+  border-top: 1px solid #d3d7db;
+}
+.navgation button{
+  height: 70px;
+  padding: 0px;
+  background-color: #eee;
+  /*color:#4b4b4b;*/
+  font-family: "微软雅黑 Regular";
+  font-size:24px;
+}
+.navgation .btnBorder{
+  border-left:1px solid #d3d7db;
+  border-right:1px solid #d3d7db;
+}
+/*#act{
+  background-color: #fff;
+}*/
+#button-startImg button{
+  background-color: #fff;
+}
+
+/*列表*/
+.themeTemplateContent_wait,.themeTemplateContent_shipped,.themeTemplateContent_completed{
+  display: none;
+}
+/*.themeTemplateTitle,.themeTemplateContent{
+  width: 100%;
+}*/
+.themeTemplateContent{
+  /*margin-top: 30px;*/
+  margin:30px 50px 0px 50px;
+  padding: 0px;
+  background-color: #fff;
+  /*border: 1px solid #ebebeb;*/
+}
+.themeTemplateContent table{
+  width: 100%;
+}
+.themeTemplateContent thead{
+  margin: 0px;
+  padding: 0px;
+  height: 60px;
+  text-align: left;
+  /*margin-left: 20px;*/
+  text-indent:20px;
+  /*width: 100%;*/
+  border-top: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+.themeTemplateContent tbody{
+  color:#6b6b6b;
+  font-family: "微软雅黑 Regular";
+  font-size: 14px;
+}
+.themeTemplateContent tbody tr{
+  /*line-height: 120px;*/
+  /*border: 1px solid #d3d8d9;*/
+  /*font-family: "微软雅黑 Regular";*/
+  margin: 0px;
+  padding: 0px;
+  /*height: 46px;*/
+  text-align: center;
+}
+.themeTemplateContent tbody td{
+  border: 1px solid #ebebeb;
+}
+.thead_name,.thead_name_detail,.thead_name_1,.thead_rendering,.thead_rendering_detail,.thead_time,.thead_price,.thead_describe,.thead_detail{
+  color:#6b6b6b;
+  font-family: "微软雅黑 Regular";
+  font-size: 18px;
+  line-height: 50px;
+  width: 20%;
+}
+.thead_name_detail{
+  width: 7.3%;
+}
+.thead_rendering_detail{
+  width: 92.7%
+}
+.tbody_name,.tbody_name_detail,.tbody_rendering,.tbody_rendering_detail,.tbody_time,.tbody_price,.tbody_describe,.tbody_detail{
+  color:#6b6b6b;
+  font-family: "微软雅黑 Regular";
+  font-size: 18px;
+  line-height: 50px;
+  width: 20%;
+}
+.tbody_describe{
+  cursor: pointer;
+}
+.order_detail tbody tr{
+  height: 80px;
+}
+.order_detail tbody .tbody_name_detail{
+  border-right: none;
+  width: 7.3%;
+}
+.order_detail tbody .tbody_rendering_detail{
+  border-left: none;
+  text-align: left;
+  color:#5d5d5d;
+  font-family: "微软雅黑 Regular";
+  font-size: 14px;
+  line-height: 26.67px;
+  padding:20px 0px 20px 0px; 
+  /*margin:20px 20px 20px 20px;*/
+}
+/*.tbody_name_detail{
+
+}*/
+.tbody_rendering_detail{
+  
+}
+/*.thead_name,.thead_time,.thead_price{
+  width: 12%;
+}
+.thead_rendering{
+  width: 21%;
+}
+.thead_describe{
+  width:24%;
+}
+.thead_operation,.thead_detail{
+  width: 9%
+}
+.tbody_rendering img{
+  width: 69.44%;
+  height: 80px;
+}*/
+/*.tbody_operation img,.tbody_detail img{
+  cursor: pointer;
+}*/
+.space{
+  height:20px;
+  background-color:#f8f8f8;
+}
+.space1{
+  height:40px;
+  background-color:#f8f8f8;
+}
+.current_tr{
+  /*cursor: pointer;*/
+}
+.color_style{
+  background-color: #ddd;
+}

@@ -1,0 +1,74 @@
+.element-hide{
+	display: none;
+}
+button{
+	outline: none;
+}
+a{text-decoration: none}
+a:hover,a:focus{text-decoration: none}
+a:active,a:focus{
+	text-decoration: none;
+	color:#fff;
+}
+.siderbar{
+	width:160px;
+	height: 1680px;
+	background-color:#30333A;
+	margin-left:0px;
+	margin-top: 0px;
+	float: left;
+}
+.list-item{
+	width:160px;
+	height:60px;
+	text-align: center;
+	display: block;
+	line-height: 60px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color:#707279;
+}
+.list-item-a{
+	width:160px;
+	height:38px;
+	text-align: center;
+	display: block;
+	line-height: 38px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	color:#707279;
+}
+
+.list-item:hover{
+	background-color:#fa2e5c;
+	color:#ffffff;
+}
+.onsidebar{
+	background-color:#fa2e5c;
+	color:#ffffff;
+}
+#app-manage,#commodity-manage,#wexin-manage{
+	background-color:#30333A;
+	border:none;
+}
+#app-manage a:hover,#commodity-manage a:hover,#wexin-manage a:hover{
+	color:#fa2e5c;
+	background-color:#30333A; 
+	
+}
+.onsidebarlist{
+	color:#fa2e5c;
+	background-color:#30333A;
+}
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "微软雅黑";
+}
+.allhover:hover{
+	background-color: #fb2d5c;
+}
+.allhover{
+	background-color: #a7a4a4;
+}

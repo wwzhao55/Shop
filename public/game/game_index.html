@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>一贯气球充金</title>
+    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        body, canvas, div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
+</head>
+<body style="padding:0; margin: 0; background: #000;">
+<script src="res/loading.js"></script>
+<canvas id="gameCanvas" width="480" height="720"></canvas>
+<script>
+    (function () {
+        var nav = window.navigator;
+        var ua = nav.userAgent.toLowerCase();
+        var uaResult = /android (\d+(?:\.\d+)+)/i.exec(ua) || /android (\d+(?:\.\d+)+)/i.exec(nav.platform);
+        if (uaResult) {
+            var osVersion = parseInt(uaResult[1]) || 0;
+            var browserCheck = ua.match(/(qzone|micromessenger|qqbrowser)/i);
+            if (browserCheck) {
+                var gameCanvas = document.getElementById("gameCanvas");
+                var ctx = gameCanvas.getContext('2d');
+                ctx.fillStyle = '#000000';
+                ctx.fillRect(0, 0, 1, 1);
+            }
+        }
+    })();
+    var max = $max_score;
+    var todayTimes = $today_time;
+    var totalTimes = $all_time;
+    var phone = $current_phone;
+    var todayAllow = true;
+
+    wx.config({
+        appId: "$signPackage['appId']",
+        timestamp: $signPackage['timestamp'],
+        nonceStr: "$signPackage['nonceStr']",
+        signature:"$signPackage['signature']",
+        jsApiList: [
+          "onMenuShareTimeline","onMenuShareAppMessage"
+            // 所有要调用的 API 都要加到这个列表中
+        ]
+    });
+wx.ready(function() {
+    wx.onMenuShareTimeline({
+        title: '一贯邀你为气球充金赢红包，快来试试~     我成功为气球充金，红包到手了！', // 分享标题
+        link: 'http://shop.dataguiding.com/game/index.php?phone', // 分享链接
+        imgUrl: 'http://shop.dataguiding.com/game/img/yiguan.png', // 分享图标
+        success: function () {
+            if (cc.director.getRunningScene().getChildByTag(1) != undefined)
+                cc.director.getRunningScene().removeChildByTag(1);
+            if (todayAllow)
+                todayTimes++;
+            totalTimes++;
+            var xhr = cc.loader.getXMLHttpRequest();
+            xhr.open("GET", "http://shop.dataguiding.com/game/oauth.php?param={\"cmd\":\"add_share_data\"}");
+            xhr.send();
+        },
+        cancel: function () {
+            if (cc.director.getRunningScene().getChildByTag(1) != undefined)
+                cc.director.getRunningScene().removeChildByTag(1);
+        }
+    });
+    wx.onMenuShareAppMessage({
+        title: '一贯邀你为气球充金赢红包，快来试试~ ', // 分享标题
+        desc: '我成功为气球充金，红包到手了！', // 分享描述
+        link: 'http://shop.dataguiding.com/game/index.php', // 分享链接
+        imgUrl: 'http://shop.dataguiding.com/game/img/yiguan.png', // 分享图标
+        type: '', // 分享类型,music、video或link，不填默认为link
+        dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+        success: function () {
+            if (cc.director.getRunningScene().getChildByTag(1) != undefined)
+                cc.director.getRunningScene().removeChildByTag(1);
+            if (todayAllow)
+                todayTimes++;
+            totalTimes++;
+            var xhr = cc.loader.getXMLHttpRequest();
+            xhr.open("GET", "http://shop.dataguiding.com/game/oauth.php?param={\"cmd\":\"add_share_data\"}");
+            xhr.send();
+        },
+        cancel: function () {
+            if (cc.director.getRunningScene().getChildByTag(1) != undefined)
+                cc.director.getRunningScene().removeChildByTag(1);
+        }
+    });
+  });
+</script>
+<script src="game.min.js"></script>
+</body>
+</html>

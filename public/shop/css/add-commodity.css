@@ -1,0 +1,609 @@
+/*auth:wuwenjia*/
+#add-img{
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+}
+
+#add-images{
+	cursor: pointer;
+}
+.container-commodity{
+	margin-top: 40px;
+	margin-left: 1.7045%;
+	margin-right: 1.7045%;
+}
+button.btn.btn-info.btn-sm.addvalue {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px;
+}
+button.btn.btn-warning.btn-sm.reset {
+    line-height: 24px;
+    padding: 0 5px;
+        height: 24px;
+}
+.commodity-status{
+	float: left;
+	text-align: center;
+	width:calc((100% - 6px) / 3);
+	width:-moz-calc((100% - 6px) / 3);
+	width:-webkit-calc((100% - 6px) / 3);
+	background-color: #EEEEEE;
+	height: 70px;
+	line-height: 70px;
+	font-size: 16px;
+	color:#333;
+	border:1px solid #d3d7da;
+}
+.on{
+	background-color: #FFFFFF;
+	font-size: 16px;
+	color:#fb2d5c;
+	border:none;
+	border-top:1px solid #d3d7da;
+}
+#commodity-saling{
+	width:96%;
+    margin-left: 2%;
+    line-height: 42px;
+    float: left;
+    margin-top: 40px;
+	clear:both;
+	background-color:#FFFFFF;
+}
+.commodity-class{
+   background-color:#FFFFFF;
+    height:82px;
+    margin-top: 40px;
+}
+.commodity-edit{
+	width:100%;
+	height:80px;
+	line-height: 80px;
+	background-color:#FFFFFF;
+	margin-bottom: 30px;
+	padding:0 30px;
+}
+.commodity-word{	
+	font-size: 30px;
+	color:#333;
+}
+.commodity-return{
+	float: right;
+	width:140px;
+    height:44px;
+    line-height: 44px;
+    border:none;
+    /*background-color: #fb2d5c;*/
+    border-radius: 22px;
+	cursor:pointer;
+	color:#fff;
+	font-size: 14px;
+	margin-top: 18px;
+}
+
+.choose-commodity{
+	background-color:#fff;
+	width:100%;
+	height:804px;
+	float: left;
+}
+.commodity-class{
+	width:74.47%;
+	margin-top: 110px;
+	margin-left: 12.47%;
+}
+.commodity-list{
+	float:left;
+	width:31.59%;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 16px;
+	color:#666;
+	background-color:#f2f2f2;
+	border:1px solid #d2d2d2;
+	margin-top: 18px;
+	margin-left: 1.568%;
+	cursor:pointer;
+}
+.next{
+	width:100%;
+	text-align: center;
+	clear:both;
+	float: left;
+	margin-top: 64px;
+    margin-bottom: 116px;
+}
+.next img{
+	display: inline-block;
+}
+
+.next img:hover{
+	cursor:pointer;
+}
+.commodity-msg-edit{
+	display: none;
+	width:100%;
+	/*height:900px;*/
+	background-color:#FFFFFF;
+	float: left;
+	padding:20px;
+}
+
+.edit-title{
+	/*width:12.12%;
+	height: 140px;
+	text-align: center;
+	margin-right: 1.1212%;*/
+	font-size: 24px;
+	color:#333;
+    margin-bottom: 30px;
+}
+.div_name,.div_introduce{
+	margin-bottom: 30px;
+}
+.div_category,.buy_number{
+	margin-bottom: 32px;
+}
+.div_type{
+	margin-bottom: 20px;
+}
+.div_place,.div_image{
+	margin-bottom: 40px;
+}
+.commodity-class-list>span,.introduce-title{
+	color:#333;
+	font-size: 18px;
+    padding-right: 20px;
+    width:110px;
+    text-align: right;
+    display: inline-block;
+    font-family: "微软雅黑Light";
+}
+
+.class-commodity{
+	width:19.28%;
+	height:40px;
+	border-radius: 4px;
+	border:1px solid #dcdcdc;
+	color:#666;
+	font-size: 16px;
+	font-family: "微软雅黑Light";
+	padding:0 20px;
+}
+.limitbuy{
+	width: 38.56%;
+}
+#produce_area1{
+	margin-right: 40px;
+}
+#refresh_group,#new_publish{
+	margin:0 20px;
+	color:#fb2d5c;
+	font-size: 16px;
+	font-family: "微软雅黑Light";
+}
+.commodity-class-list a:hover{
+	color:#fb2d5c;
+}
+.dot{
+	cursor: pointer;
+	margin-right: 20px;
+}
+.dot_value{
+	padding-right: 40px;
+}
+.span_words,.div_image>div>span{
+	color:#666;
+	font-size: 16px;
+	font-family: "微软雅黑Light";
+}
+input[type=file] {
+    display: none;
+}
+.div_image>div>img{
+	margin-top: 11px;
+}
+.mainimage{
+	margin-right: 100px;
+	position: relative;
+	top:-54px;
+}
+.image_title{
+	position: relative;
+	top: -97px;
+}
+.tip{
+	margin-top: 10px;
+	color:#999;
+	font-size: 14px;
+	font-family: "微软雅黑Light";
+}
+.mention,.vip_value,.sku_info{
+	font-size: 16px;
+	margin-right: 40px;
+	color:#666;
+	font-family: "微软雅黑Light";
+	display: inline-block;
+}
+.mention{
+	margin-left: 20px;
+}
+
+.edit-commodity-detail{
+	display: none;
+	width:100%;
+	background-color:#FFFFFF;
+	float: left;
+	padding:30px;
+}
+.edit-commodity-detail-container{
+	float: left;
+	width:100%;
+	background: #fff;
+}
+.edit-commodity-detail textarea{
+	color:#666;
+	font-size: 16px;
+	font-family: "微软雅黑Light";
+	padding:20px;
+	width:66.27%;
+}
+.introduce-msg{
+	height:300px;
+	margin-bottom: 30px;
+}
+.introduce-msg-detail{
+	height:830px;
+}
+.commodity-mode{
+	float: left;
+	width:100%;
+	height:60px;
+	line-height: 60px;
+}
+.commodity-mode span{
+	display:inline-block;
+	margin-left: 3.57%;
+	margin-right: 3.57%;
+}
+.choose-mode{
+	display: inline-block;
+	width:22.8%;
+}
+.commodity-introduce{
+	
+
+}
+.introduce-title{
+	float:left;
+}
+.introduce-msg{
+	/*float: left;
+	width:92.857%;
+	height: 50px;
+	margin-left: 3.57%;
+	margin-top: 15px;
+	background-color: #FFFFFF;
+	border:1px solid #FFFFFF;*/
+}
+.commodity-detail-edit{
+   	/*float: left;
+	width:100%;
+	height:312px;
+	margin-top: 14px;*/
+}
+.introduce-msg-detail{
+	/*float: left;
+	width:92.857%;
+	height: 220px;
+	margin-left: 3.57%;
+	margin-top: 15px;
+	background-color: #FFFFFF;
+	border:1px solid #FFFFFF;*/
+}
+.commodity-show{
+	float: left;
+}
+.img-show{
+	display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+	width:60px;
+	height:60px;
+}
+.img_show{
+	display: inline-block;
+    /*margin-top: 10px;*/
+    margin-right: 20px;
+	width:60px;
+	height:60px;
+}
+.info{
+	margin-bottom: 20px;
+}
+#single span,.edit_sku span{
+	font-size: 16px;
+	color:#999;
+	font-family: "微软雅黑Light";
+	padding-right: 20px;
+	padding-left: 40px;
+}
+.sku_lists,.sku_value{
+	width:160px;
+	height:24px;
+	padding:0 10px;
+	border:1px solid #a6a6a6;
+	color:#999;
+	font-family: "微软雅黑Light";
+	font-size: 14px;
+	border-radius: 4px;
+}
+#single div{
+	margin-bottom: 20px;
+}
+.commodity_value{
+	width:130px;
+	height:24px;
+	padding:0 10px;
+	border:1px solid #a6a6a6;
+	color:#999;
+	font-family: "微软雅黑Light";
+	font-size: 14px;
+	border-radius: 4px;
+}
+/*.edit_sku{
+	margin: 20px 0;	
+}
+
+
+
+
+.label_sku{
+	height: 30px;
+	line-height: 30PX;
+	padding:0 20px;
+	width:350px;
+	background-color: #e6e6e6;
+	color:#999;
+	font-family: "微软雅黑Light";
+	font-size: 16PX;
+	margin-left: 40px;
+	float: left;
+}
+.label_sku span{
+	float:right;
+}
+
+.sku_content input{
+	width:100px;
+	height:24px;
+	line-height: 24px;
+	font-size:14px;
+	padding:0 10px;
+	border-radius: 4px;
+	border:1px solid #999;
+	float:right;
+	margin-top: 3px;
+}
+.box-body{
+	margin-left:40px;
+	width:350px;
+	height:30px;
+	line-height: 30px;
+	padding-left:20px;
+	color:#999;
+	font-family: "微软雅黑Light";
+	font-size:16px;
+}*/
+
+.form-group{
+    /*float: left;*/	
+	margin-left: 40px;
+	
+}
+/*zww start*/
+.box-title.skuname {
+    font-family: "微软雅黑Light";
+    color: #999;
+    font-size: 16PX;
+    padding-right: 20px;
+        margin-left: 360px;
+    margin-top: -35px;
+}
+.scale_value{
+	width: 160px;
+    height: 24px;
+    padding: 0 10px;
+    border: 1px solid #a6a6a6;
+    color: #999;
+    font-family: "微软雅黑Light";
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.pull-right-input {
+    /* float: right!important; */
+    margin-left: 420px;
+    margin-top: -22px;
+}
+input.price {
+    width: 100px;
+    height: 24px;
+    margin-right: 20px;
+    float: right;
+}
+.block-list {
+    width: 350px;
+    height: 30px;
+    background-color: #e6e6e6;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+span.scale-list-name {
+    padding-left: 20px;
+}
+span.scale-Name {
+    padding-left: 30px;
+}
+span.scale-list-price {
+    float: right;
+    margin-right: 100px;
+}
+.skulist {
+    width: 400px;
+}
+.box.box-success.finally-1-css {
+    border: none;
+        box-shadow: none;
+}
+.box-header.with-border.finally-2-css {
+    border: none;
+}
+span.box-title.skuname.finally-4-css {
+    margin-top: -45px;
+    position: absolute;
+}
+.box-tools.pull-right-input.finally-3-css {
+    position: initial;
+        margin-top: -50px;
+}
+/*zww end*/
+.form-group span{
+	font-family: "微软雅黑Light";
+	color:#999;
+	font-size: 16PX;
+	padding-right: 20px;
+}
+.btn_add{
+	width:60px;
+	height:24px;
+	background-color: #f4d29c;
+	color:#fff;
+	font-size: 12px;
+	border-radius: 4px;
+	border:none;
+	margin-left: 10px;
+}
+.box-body {
+	list-style: none;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+.box-body li {
+	float: left;
+}
+.box_body{
+	margin:20px 40px;
+}
+.last-step,.last-step1,.next-step,.on-shelf{	
+	height:60px;
+	font-size: 16px;
+	color:#fff;
+	border: none;
+	margin-right: 40px;
+}
+.last-step,.next-step{
+	width:200px;
+}
+.last-step1,.on-shelf{
+	width:150px;
+}
+#choose-next{
+	width:200px;
+	height:60px;
+	font-size: 16px;
+    color:#fff;
+    border:none;
+}
+.error-mention{
+	font-family: "微软雅黑regular";
+	font-size:20px;
+	color:#666;
+	padding-left:30px;
+	padding-bottom: 20px;
+}
+
+.custom{
+	border:none;
+	width:140px;
+	height:44px;
+	color:#fff;
+	background-color: #fb2d5c;
+	border-radius: 4px;
+	font-size:14px;
+}
+/*.custom{
+	margin-top: 30px;
+	margin-left: 110px;
+}*/
+.commodity-detail-edit table{
+	margin-top: 30px;
+	margin-left: 110px;
+	color:#666;
+	font-size:16px;
+}
+.commodity-detail-edit table th ,.commodity-detail-edit table td{
+	border:1px solid #666;
+	text-align: center;
+	height:50px;
+}
+.param_description{
+	height:30px;
+	border:1px solid #ccc;
+	width:330px;
+}
+.custom_window{
+	padding:20px;
+}
+.custom_window span{
+	font-size:16px;
+	color:#666;
+	display:inline-block;
+	width:80px;
+	/*margin-left: 20px;*/
+	margin-bottom: 40px;
+	float:left;
+	clear:left;
+}
+.custom_window input{
+	width:150px;
+	height:40px;
+	border-radius: 4px;
+	float:left;
+	border:1px solid #ccc;
+}
+.custom_window textarea{
+	width:150px;
+	height:100px;
+	border-radius: 4px;
+	resize:none;
+	float:left;
+	border:1px solid #ccc;
+}
+.custom_window button{
+    width:100px;
+    height:40px;
+    color:#fff;
+    font-size:14px;
+    background-color: #fb2d5c;
+    border-radius: 4px;
+    border:none;
+    margin-left: 15px;
+}
+.custom_window div{
+	clear:left;
+	padding-top: 25px;
+}
+.custom_delete{
+	color:#fb2d5c;
+	cursor: pointer;
+}
+input.checkbox {
+    margin-left: 20px;
+}

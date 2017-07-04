@@ -1,0 +1,176 @@
+.navgation{
+  /*background-color:pink;*/
+  margin-top: 60px;
+  height:70px;
+  width: 100%;
+  border-top: 1px solid #d3d7db;
+}
+.navgation button{
+  height: 70px;
+  padding: 0px;
+  background-color: #eee;
+  /*color:#4b4b4b;*/
+  font-family: "微软雅黑 Regular";
+  font-size:24px;
+}
+.navgation .btnBorder{
+  border-left:1px solid #d3d7db;
+  border-right:1px solid #d3d7db;
+}
+/*#act{
+  background-color: #fff;
+}*/
+#button-startImg button{
+  background-color: #fff;
+}
+/*启动图片模块*/
+.startImg,.advImg{
+  /*max-width: 1900px;*/
+  margin: 0px 25px 0px 25px;
+  text-align: center;
+  height: 1000px;
+}
+.ImageArea{
+  height: 250px;
+  text-align: center;
+  padding: 0px 25px 0px 25px;
+  margin: 50px 0px 0px 0px;
+  position: relative;
+  /*border: 1px solid red;*/
+  /*background-color: #aaa;*/
+  line-height: 250px;
+}
+.ImageArea_image{
+  /*width: 85.22%;*/
+  width: 100%;
+  height: 250px;
+  /*border: 1px solid red;*/
+  /*margin: 25px 25px 25px 25px;*/
+  
+}
+.ImageArea_image img{
+  width:100%;
+  height: 100%;
+  /*border: 1px solid lightblue;*/
+  }
+
+
+/*js样式设置*/
+.confrimDel,.confrimDel_adv{
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+  display: none;
+  text-align: center;
+}
+.confrimDel div,.confrimDel_adv div{
+  float:left; 
+  width: 100%;
+
+}
+.confrimDel div:nth-of-type(1) ,.confrimDel_adv div:nth-of-type(1) {
+  color: #fc2b5c;
+  font-size:20px;
+    font-family: "微软雅黑Rugular";
+    margin-top: 60px;
+}
+.confrimDel div:last-of-type,.confrimDel_adv div:last-of-type{
+   margin-top: 52px;
+
+}
+.confrimDel div:last-of-type img:first-of-type,.confrimDel_adv div:last-of-type img:first-of-type{
+  margin-right: 100px;
+}
+.confrimDel div:last-of-type img,.confrimDel_adv div:last-of-type img{
+  cursor: pointer;
+}
+.line{
+  float: left;
+  clear: both;
+  width: 75%;
+  height:1px;
+  border:none;
+  margin-left:12.5%;
+  margin-top:50px;
+  border-top:1px solid #566573;
+  border-bottom:1px solid #fc2b5c;
+}
+
+
+/*广告图片*/
+
+
+.ImageArea_image_action{
+  display: inline-block;
+  position: absolute;
+  top: 160px;
+  /*left: 34%;*/
+  width: 150px;
+  height: 50px;
+  /*background-color: lightblue;*/
+}
+.ImageArea_image_action1{
+  /*display: inline-block;*/
+  position: absolute;
+  top: 201px;
+  /*left: 34%;*/
+  /*width: 100%;*/
+  width:calc(100% - 50px);
+  width:-moz-calc(100% - 50px);
+  width:-webkit-calc(100% - 50px);
+  margin: 0px 25px 0px 0px;
+  height: 50px;
+  /*background-color: lightblue;*/
+  background-color: #000;
+  opacity:0.5;
+}
+.btnStyle_del,.btnStyle_del0,.btnStyle_sta,.btnStyle_sta0,.btnStyle_up{
+  /*display: inline-block;*/
+  width: 50px;
+  height:50px;
+  /*background-color:#F9EBD9;*/
+  float:left;
+  cursor: pointer;
+}
+.btnStyle_del{
+  /*float:left;*/
+  position: absolute;
+  /*left:-90px;*/
+  margin-left:-75px;
+  background-image: url(../img/app_set_img/icon-cancel.png);
+}
+.btnStyle_del0{
+  margin-left: 25px;
+  background-image: url(../img/app_set_img/icon-cancel.png);
+}
+.btnStyle_up{
+  margin-left: 25px;
+  background-image: url(../img/app_set_img/icon-upload.png);
+}
+.btnStyle_sta{
+  margin-left: -25px;
+  background-image: url(../img/app_set_img/icon-choice-hover.png);
+}
+.btnStyle_sta0{
+  margin-left: -75px;
+  background-image: url(../img/app_set_img/icon-choice.png);
+}
+/*价格style*/
+.name,.price{
+  line-height: 50px;
+  /*position:absolute;*/
+  color: #fff;
+  
+  font-family: "微软雅黑 Rugular"
+  
+}
+.name{
+  float: left;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.price{
+  float: right;
+  margin-right: 30px;
+  font-size: 16px;
+}

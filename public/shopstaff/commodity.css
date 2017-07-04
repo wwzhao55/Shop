@@ -1,0 +1,271 @@
+/*
+Auth:Zhaoweiwei
+Date:2016.07.21 
+*/
+
+	body{
+		 background-color:#f2f2f2;
+		}
+	.delete-success{
+		text-align: center;
+		font-size: 24px;
+		color: #333;
+	}
+	.contentManage{
+	            	margin:60px 50px 30px 50px;
+	            	height:100%;
+	            }
+	.contentManage-title{
+	                background-color:#ffffff;
+	                width:100%;
+	                height:114px;
+	                float: left;
+	            }
+	.contentManage-title span {
+	                font-size: 30px;
+	                color: #333;
+	                padding-left:30px;
+	                float: left;
+	                margin-bottom: 48px;
+    				margin-top: 34px;
+	            }
+	#account-btn {
+				    float: right;
+				    margin-right: 20px;
+				    margin-top: 30px;
+				    cursor: pointer;
+				    width: 140px;
+				    height: 44px;
+				    background-color: #999999;
+				    color: #fff;
+				    font-size: 16px;
+				    text-align: center;
+				    line-height: 44px;
+				    border-radius: 222px;
+				}
+	#account-btn:hover{
+					background-color: #fb3d5c;
+				}			
+	table{
+	             border-collapse:collapse; 
+	             text-align:center;
+	             width: 100%;
+	            }
+	table tr td{
+	             border:1px #dcdcdc solid;
+	             background-color :#fefefe;
+	             height:60px;
+	             border:1px #dcdcdc solid;
+	             color:#999;
+	             text-align:center;
+	             font-size: 14px;
+	            }
+	table tr th{
+	             background-color : #fefefe;
+	             line-height:50px;
+	             color:#333;
+	             text-align:center;
+	             font-size: 16px;
+	             border:1px #dcdcdc solid;
+	            }
+	img.edit {
+    			margin-right: 10px;
+    			cursor: pointer;
+	}
+	img.delete {
+    		cursor: pointer;
+	}
+	.window-content {
+    				margin: 50px 30px 0px 30px;
+	}
+	.window-content table{
+			width:60%;
+			margin:0 20%;
+	}
+	.bottom-btn {
+			    float: left;
+			    margin-top:50px;
+			    height: 10.6%;
+			    width: 100%;
+	}
+	.cancle-new {
+			    float: left;
+			    margin-left: 30px;
+			    cursor: pointer;
+			    width: 150px;
+			    height: 50px;
+			    line-height: 50px;
+			    text-align: center;
+			    font-family: Arial, Helvetica, sans-serif;			    
+			    font-size: 16px;
+			    color: #fff;
+			    border: none;
+			    border-radius: 4px;
+	}
+	.confirm-new {
+			    float: right;
+			    margin-right: 30px;
+			    cursor: pointer;
+
+	}
+	input.input_name,input.input_website {
+	    border: none;
+	    width: 100%;
+	    height: 100%;
+	    text-align: center;
+	}	
+	
+/*	物流管理*/
+	.transferManage{
+	            	margin:30px 50px 30px 50px;
+	            	height:100%;
+	            }
+	.trans-nav {
+			    height: 60px;
+			    width: 100%;
+	}
+	button.wait-list {
+    			width: 50%;
+			    float: left;
+			    height: 100%;
+			    background-color: #fff;
+			    border: 1px solid #f8f8f8;
+			    color: #fb2d5d;
+			    font-size: 20px;
+	}
+	button.ready-list {
+    			width: 50%;
+			    float: left;
+			    height: 100%;
+			    background-color: #f8f8f8;
+			    border: 1px solid #ccc;
+			    color: #000000;
+			    font-size: 20px;
+	}
+	.wait-tab {
+    		width: 100%;
+	}
+	.ready-tab {
+    		width: 100%;
+    		display:none;
+	}
+	input.input,input.transfercode {
+		    width: 48%;
+		    height: 30px;
+		    margin-right: 5%;
+		    float: left;
+		    margin-left: 10%;
+	}
+	img.confirm,img.btn-sure {
+	    float: left;
+	    width: 25%;
+    	height: 30px;
+	}
+	img.staus {
+	    margin-right: 3%;
+	    float: left;
+	    margin-left: 30%;
+	}
+	.describe {
+	    float: left;
+	}
+	.wait-detail,.ready-detail {
+	    width: 100%;
+	    margin-top: 30px;
+	    border:1px #e8e8e8 solid;
+	}
+	.commodity-logo {
+	    float: left;
+	    margin: 20px 20px 20px 20px;
+	    height: 80px;
+	}
+	.commodity-name {
+	    color: #5d5d5d;
+	    font-size: 14px;
+	    margin-top: 20px;
+    	text-align: left;
+	}
+	.commodity-number,.commodity-price {
+	    color: #5d5d5d;
+	    font-size: 14px;
+    	text-align: left;
+	}
+	.commodity-price {
+	    color: #f92f5e;
+	    font-size: 14px;
+    	text-align: left;
+	}
+	.wait-detail span,.ready-detail span{ 
+		display:block;
+	}
+	div#layui-layer1 {
+				    z-index: 19891015;
+				    width: 47%;
+				    height: 440px;
+				    left: 377.5px;
+				    top: 150px !important;
+	}
+	tbody.order-detail {
+				    background-color: #fbfbfb;
+				    color: #6b6b6b;
+				    text-align: center;
+				    font-size: 18px;
+	}
+	.id {
+    float: left;
+}
+.question {
+	    color: #fb2d5d;
+	    font-size: 20px;
+	    margin-top: 15px;
+	    line-height: 80px;
+	    height:80px;
+	    text-align: center;
+	    font-weight: 800;
+	}
+	.group_modify {
+	    width: 64%;
+	    height: 40px;
+	    line-height: 40px;
+	    /*margin-left: 18%;*/
+	    border: 1px solid #bfbfbf;
+	   /* margin-bottom: 25px;*/
+	    padding: 0 15px;
+	    color:#666;
+	}
+	.cancle-edit{
+		margin-left: 18%;
+		margin-right: 10%;
+		cursor: pointer;
+	}
+	.confirm-edit{
+		cursor: pointer;
+	}
+	.edit-window span{
+		display: inline-block;
+		width:100px;
+		font-size: 18px;
+		color:#333;
+		height:40px;
+		line-height: 40px;
+		margin-left: 50px;
+	}
+	.div_img{
+		margin-top: 30px;
+	}
+	.cancle-new button,.confirm-new button{
+		width:150px;
+		height:50px;
+		font-size: 16px;
+		color:#fff;
+		border:none;
+		border-radius: 4px;
+	}
+	.cancle-edit,.confirm-edit{
+		width:170px;
+		height:50px;
+		font-size: 16px;
+		color:#fff;
+		border:none;
+		border-radius: 4px;
+	}

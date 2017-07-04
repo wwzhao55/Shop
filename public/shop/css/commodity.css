@@ -1,0 +1,338 @@
+/*auth:wuwenjia*/
+.commodity-title{
+	font-size:30px;
+	color:#333;
+	float:left;
+}
+.element-hide{
+	display: none;
+}
+.category-selected{
+	background-color: #f2f2f2;
+}
+
+.commodity-active{
+	background-color: #eee !important;
+	font-family: 微软雅黑 !important;
+	font-size: 18px !important;
+	color:#F9577B !important;
+}
+.commodity-status{
+	float: left;
+	text-align: center;
+	width:calc((100% - 6px) / 3);
+	width:-moz-calc((100% - 6px) / 3);
+	width:-webkit-calc((100% - 6px) / 3);
+	background-color: #F8F8F8;
+	height: 60px;
+	line-height: 60px;
+	cursor: pointer;
+	border:1px solid #EEE;
+}
+.commodity-status {
+    font-family: 微软雅黑;
+	font-size: 18px;
+	color:#392825;
+}
+
+#commodity-saling{
+	width:96%;
+	min-width: 1550px;
+    margin-left: 2%;
+    float: left;
+    margin-top: 40px;
+	clear:both;
+	background-color:#FFFFFF;
+}
+.commodity-class{
+   background-color:#FFFFFF;
+    height:82px;
+    margin-top: 40px;
+    line-height: 42px;
+    padding:0 1.8%;
+}
+.commodity-className{
+	display: block;
+   float: left;
+   width:140px;
+   height:42px;
+	font-size: 16px;
+	color:#fff;
+	background-color:#a7a4a4;
+	border:1px solid #dcdcdc;
+	text-align: center;
+	margin-right: 1.176%;
+	cursor: pointer;
+	font-weight: 550;
+}
+.commodity-className:hover{
+    color:#fff;
+    background-color: #fb2d5c;
+}
+.commodity-select{
+	float:left;
+	margin-left:30.84%;
+	height:44px;
+	padding:0 10px;
+	color:#333;
+	font-size:14px;
+	width:140px;
+	border:1px solid #dcdcdc;
+	margin-right: 3.61%;
+}
+.commodity-pubilc{
+	margin-left: 1.7647%;
+}
+.public-commodity{
+	 font-family: 微软雅黑;
+	font-size: 16px;
+	color:#323232;
+}
+.search{
+	width:66px;
+	/*float: right;*/
+	text-align: center;
+	line-height: 43px;
+	font-size: 14px;
+	color:#fff;
+	background-color: #fa2e5c;
+    font-weight: 550;
+    cursor:pointer;
+	border: 1px solid #fff;
+	display: inline-block;
+	height:43px;
+	margin-left: -2px;
+	position: absolute;
+}
+.img-search{
+	position:absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.btn-down,.btn-del{
+	width:140px;
+	height:50px;
+    color:#666;
+    font-size: 18px;
+    font-family: "微软雅黑regular";
+    border-radius: 4px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.btn-down{
+	margin-left: 2%;
+}
+.btn-down,.btn-del{
+    background-color: #dcdcdc;	
+}
+.search-commodity{
+	width:31.41%;
+	height:40px;
+	/*float: right;*/
+	border:1px solid #dcdcdc;
+	background: url(img/icon-search.png);
+	background-repeat: no-repeat;
+	background-position:20px 8px; 
+	position: relative;
+	padding-left: 50px;
+	font-size: 14px;
+	color:#333;
+	position: relative;
+}
+.commodity-table{
+	font-family: 微软雅黑;
+	float: left;
+	width:100%;
+    background-color:#FFFFFF;
+}
+.table-commodity{
+	width: 100%;
+}
+.table-head{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color:#323232;
+	font-weight: 550;
+	height:50px; 
+	text-align: center;
+	border:1px solid #eee;
+}
+.commodity-edit{
+	width:100%;
+	height:60px;
+	line-height: 60px;
+	background-color:#FFFFFF;
+	border:1px solid #eee;
+}
+.commodity-word{
+	float: left;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+    margin-left: 2.841%;
+     font-family: 微软雅黑;
+	font-size: 18px;
+	color:#323232;
+}
+.commodity-return{
+	float: right;
+	margin-top: 8px;
+	width:8.235%;
+	margin-right: 1.176%;
+	cursor:pointer;
+}
+.commodity_list_td{
+	border: #dcdcdc 1px solid;
+}
+.commodity_list_td {
+	text-align: center;
+}
+.commodity-tr{
+	height: 120px;
+}
+.commodity-img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 20px;
+	left: 70px;
+}
+.commodity-display{
+	position: relative;
+}
+.commodity-name{
+	padding: 5px 0 5px 0;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+}
+.commodity-name p{
+	/*margin-bottom: 5px;*/
+	text-align: left;
+    font-size: 14px;
+	
+}
+.commodity-name .number{
+	margin-bottom: 10px;
+
+}
+.commodity-name .name{
+	color: #333333;
+	width: 100px;
+	height: 16px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	 white-space:nowrap;
+	 margin-bottom: 16px;
+}
+.commodity-name p:last-child{
+	color: #e64216;
+}
+table td>p{
+	color:#999;
+}
+.PV{
+	margin-bottom: 14px;
+}
+.checkall,.check{
+	width:30px;
+	height:30px;
+	border:1px solid #d6d6d6;
+	display:inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	float:left;
+	margin-left: 20px;
+}
+.divide-page{
+    text-align: center;
+}
+.divide-page .pagination{
+    margin-top:100px;
+    margin-bottom: 92px;
+    font-size: 30px;
+}
+
+.divide-page .pagination li:first-child span,.divide-page .pagination li:last-child a,.divide-page .pagination li:first-child a,.divide-page .pagination li:last-child span{
+	width: 60px;
+    height:60px;
+    text-align: center;
+    color: #ccc;
+    display: inline-block;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	width: 60px;
+    height:60px;
+    text-align: center;
+    background-color: #fb2d5c;
+    display: inline-block;
+    color:#fff;
+    border-color:#dcdcdc;
+}
+.divide-page .pagination li:not(last-child) a,.divide-page .pagination li:not(first-child) a{
+	width: 60px;
+    height:60px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+    color:#333;
+    border-color:#dcdcdc;
+}
+.divide-page .pagination li{
+	margin-right: 20px;
+	display: inline-block;
+}
+.group_modify{
+	border:1px solid #dcdcdc;
+	height:180px;
+	width:120px;
+	position: absolute;
+	background-color: #fff;
+	color:#333;
+	font-size:18px;
+	padding:10px 0;
+	overflow-y:scroll;
+    overflow-x:hidden;
+    margin-left: 160px;
+    margin-top: -80px;
+    display: none;
+}
+.btn-down{
+	position: relative;
+}
+.group_modify li{
+	cursor: pointer;
+	padding:5px 10px;
+}
+.group_modify li:hover{
+	background-color: #fb2d5c;
+	color:#fff;
+}
+.tip{
+	font-size: 30px;
+	color:#333;
+	height:500px;
+	width:100%;
+	text-align: center;
+	line-height: 500px;
+}
+.toast-position-top-right{
+	position: fixed;
+	top:400px;
+	right:40%;
+}
+.toast-item p{
+	text-align: left;
+	margin-left: 35px;
+	font-size: 20px;
+}
+.error-mention{
+	font-family: "微软雅黑regular";
+	font-size:20px;
+	color:#666;
+	padding-left:30px;
+	padding-bottom: 20px;
+}

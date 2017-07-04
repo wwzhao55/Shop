@@ -1,0 +1,195 @@
+/*auth:wuwenjia*/
+	.accountManage{
+	            	margin:60px 50px 30px 50px;
+	            	height:100%;
+	            }
+	.accountManage-title{
+	                background-color:#ffffff;
+	                width:100%;
+	                height:60px;
+	                margin-bottom: 30px;
+	                float: left;
+	            }
+	.accountManage-title span {
+		            color:#fa2e5c;
+				    font-size: 22px;
+				    font-weight: 600;
+	                line-height: 60px;
+	                padding-left:30px;
+	                float: left;
+	            }
+	.accountManage-title button {
+	                height: 40px;
+	                border-radius: 20px;
+	                border: none;
+	                float: right;
+	                margin-right: 30px;
+	                margin-top: 10px;
+	                background-color: #A7A4A4;
+				    width: 100px;
+				    color: #fff;
+	            }
+	.accountManage-title button:hover {
+	                height: 40px;
+	                border-radius: 20px;
+	                border: none;
+	                float: right;
+	                margin-right: 30px;
+	                margin-top: 10px;
+	                background-color: #fb2d5d;
+				    width: 100px;
+				    color: #fff;
+	            }
+	table{
+	             border-collapse:collapse; 
+	             text-align:center;
+	             width: 100%;
+	            }
+	table tr td{
+	             border:1px #e8e8e8 solid;
+	             background-color :#fefefe;
+	             height:60px;
+	             border:1px #e8e8e8 solid;
+	             color:#6b6b6b;
+	             text-align:center;
+	             font-size: 14px;
+	            }
+	table tr th{
+	             background-color : #fefefe;
+	             line-height:50px;
+	             color:#6b6b6b;
+	             text-align:center;
+	             font-size: 18px;
+	             border:1px #e8e8e8 solid;
+	            }
+	span.word-describe {
+	                float: left;
+	                width: 50%;
+	                padding-top: 3px;
+	            }
+	.question {
+	    color: #fb2d5d;
+	    font-size: 20px;
+	    margin-top: 15px;
+	    line-height: 80px;
+	    height:80px;
+	    text-align: center;
+	    font-weight: 800;
+	}
+	.del-line {
+	    width: 64%;
+	    height: 40px;
+	    line-height: 40px;
+	    margin-left: 18%;
+	    border: 1px solid #bfbfbf;
+	    margin-bottom: 25px;
+	    padding: 0 15px;
+	}
+	.createdtitle{
+		color:#fa2e5c;
+		font-size: 22px;
+		font-weight: 600;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	.shopstaff-name,.shopstaff-phone {
+	    margin-left: 6.6%;
+	}	
+	.newAccount-window span ,.newStaff-window span,.editStaff-window span{
+	    color: #777;
+	    font-size: 16px;
+	    padding-right: 3.33%;
+	    padding-left: 14.67%;
+	    line-height: 40px;
+	    height: 40px;
+	}
+	input[type="text"] {
+	    border: 1px solid #dcdcdc;
+	    height: 40px;
+	    width: 50%;
+	    padding-left: 20px;
+	    color:#777;
+	    font-size:14px;
+	}
+	.shopstaff-name{
+		margin-bottom: 30px;
+	}
+	.shoplists{
+        border: 1px solid #dcdcdc;
+	    height: 40px;
+	    width: 47%;	    
+	    padding:0 20px;
+	    line-height: 40px;
+	    color:#777;
+	    font-size:14px;
+	}
+	.shopname{
+		padding-bottom: 30px;
+	}
+	.bottom-btn {
+    margin-top: 30px;
+	}
+    .cancle-new,.cancle-edit {
+    margin-left: 20%;
+    cursor: pointer;
+	}
+	.confirm-new,.confirm-edit {
+    margin-left: 6.67%;
+    cursor: pointer;
+	}
+	.accountstaff{
+		margin:60px 50px 30px 50px;
+	    height:100%;
+	}
+	.shopnamelists{
+		width:150px;
+		height:30px;
+		margin-left: 20px;
+		background-color: #fb2d5c;
+		color:#fff;
+		font-size:14px;
+		border:none;
+		margin-top: 15px;
+		padding-left: 15px;
+	}
+	.mention{
+		margin-left: 35.7%;
+		font-size: 12px;
+		color:#bfbfbf;
+		padding:10px 0;
+	}
+	.cancle-open,.cancle-frozen,.cancle-del{
+		margin-left: 18%;
+		margin-right: 10%;
+		cursor: pointer;
+	}
+	.confirm-open,.confirm-frozen,.img-delete,.img-edit,.frozen,.open,.confirm-del{
+		cursor: pointer;
+	}
+	/*.newStaff-window button,.editStaff-window button{
+		border:none;
+		background-color: #fff;
+	}*/
+	.frozen,.open,.img-edit,.img-delete{
+		width:100px;
+		height:30px;
+		background-color: #fff;
+		border:1px solid #dcdcdc;
+		border-radius: 4px;
+		color:#999;
+		font-size: 15px;
+		/*font-weight: 600;*/
+		font-family: "微软雅黑";
+	}
+	.cancle-frozen,.cancle-new,.cancle-edit,.cancle-del,.cancle-open,.confirm-open,.confirm-frozen,.confirm-edit,.confirm-new,.confirm-del{
+		width:160px;
+		height:50px;
+		font-size: 18px;
+		color:#fff;
+		border:none;
+		border-radius: 4px;
+	}
+	/*.cancle-new,.cancle-edit,.confirm-edit,.confirm-new{
+		background-color: #a7a4a4;
+	}*/

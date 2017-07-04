@@ -1,0 +1,130 @@
+/*auth:wuwenjia*/
+.shop-manage{
+	width:100%;
+	background-color: #F8F8F8;
+}
+.shop{
+ margin-left: 2.841%;
+ margin-right: 2.841%;
+ width:calc(100% - 2.841% - 2.841%);
+ width:-moz-calc(100% - 2.841% - 2.841%);
+ width:-webkit-calc(100% - 2.841% - 2.841%);
+ background-color: #FFF;
+}
+.shop-out{
+	width:100%;
+	border:1px solid #ECECEC;
+    color:#6b6b6b;
+    font-size: 18px;
+}
+.shop-out th{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.shop-title{
+    color:#FA3564;
+    font-size: 18px;
+    display:inline-block;
+    height: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-left: 20px;
+}
+.shop-out td{
+    text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border:1px solid #ECECEC;
+    color:#6b6b6b;
+    font-size: 14px;
+}
+.removed:hover,.Settled,.Settled-edit:hover{
+	cursor:pointer;
+}
+.confrimRemove{
+  width: 100%;
+  height: 300px;
+  background-color: #FFFFFF;
+  text-align: center;
+ border:1px solid #ccc;
+display:none;
+}
+.confrim-title{
+	display: block;
+    margin-top: 60px;
+    color:#fa2e5c;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+    text-align: center;
+}
+.shop-id{
+	display: block;
+    margin-left: 27%;
+    margin-right: 27%;
+    width: 46%;
+    height:50px;
+    margin-top: 30px;
+    color:#777;
+    font-size:18px;
+    font-weight: 500;
+    border:1px solid #fa2e5c;
+    padding-left: 20px;
+}
+.shop-id-border{
+	  border:2px solid #F82D5C;
+}
+.btn-confrim{
+	margin-top: 30px;
+	margin-left: 27%;
+    margin-right: 27%;
+    width: 46%;
+}
+.btn-cancel{
+	float: left;
+	width:40%;
+}
+.btn-determine{
+	float: right;
+	width:40%;
+}
+.btn-cancel:hover,.btn-determine:hover{
+	cursor: pointer;
+}
+.Settled,.removed{
+    width:100px;
+    height:30px;
+    background-color: #fff;
+    border:1px solid #dcdcdc;
+    border-radius: 4px;
+    color:#999;
+    font-size: 15px;
+    /*font-weight: 600;*/
+    font-family: "微软雅黑";
+}
+.Settled-edit{
+    width:40px;
+    height:30px;
+    background-color: #fff;
+    border:1px solid #dcdcdc;
+    border-radius: 4px;
+    color:#999;
+    font-size: 15px;
+    /*font-weight: 600;*/
+    font-family: "微软雅黑";
+    margin-left: 20px;
+}
+.btn-cancel,.btn-determine{
+    width: 150px;
+    height:50px;
+    color:#fff;
+    border:none;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.address-list {
+line-height: 30px !important;
+}

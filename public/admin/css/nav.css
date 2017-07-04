@@ -1,0 +1,75 @@
+body{
+  background-color: #f8f8f8;
+  min-width: 1200px;
+  overflow:auto;
+}
+.nav-bar{
+	width:100%;
+	height: 70px;
+}
+.nav-logo{
+	width:160px;
+	height: 70px;
+	background-color:#30333A;
+	text-align: center;
+    line-height: 70px;
+    float:left;
+}
+.nav-word{
+	float: left;
+	width:calc(100% - 160px);
+	width:-moz-calc(100% - 160px);
+	width:-webkit-calc(100% - 160px);
+	height: 70px;
+	background-color:#F2F2F4;
+}
+.nav-title{
+   margin-left: 2.841%;
+   margin-top: 24px;
+   font-size: 24px;
+   color:#4c4c4c;
+   font-family:微软雅黑;
+   float: left;
+}
+.nav-drop{
+   float: right;
+   margin-right: 2.841%;  
+   margin-top: 24px;
+   /*list-style:none;*/
+   font-size: 20px;
+   color:#4b4b4b;
+   font-family:微软雅黑;
+}
+
+.exit{
+    font-size: 20px;
+   color:#4b4b4b;
+   font-family:微软雅黑;
+}
+.content{
+	margin:0px;
+	padding:0px;
+	margin-top: 1px;
+}
+.content-right{
+   float: left;
+	width:calc(100% - 160px);
+	width:-moz-calc(100% - 160px);
+    width:-webkit-calc(100% - 160px);
+    background-color: #F8F8F8;
+    min-height:1680px;
+}
+a:hover{
+  cursor: pointer;
+  /*background-image: url(asset('admin/img/close2.png');*/
+}
+.close{
+  margin-left: 15px;
+}
+
+#app-manage li a{
+  font-size: 16px;
+  color:#707279;
+  font-family:微软雅黑;
+  margin-left: -78px;
+}

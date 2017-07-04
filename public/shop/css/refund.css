@@ -1,0 +1,238 @@
+#order-refund {
+    width: 750px;
+    margin: auto 0;
+        background-color: #efeff4;
+}
+.order-list{
+    color:#333333;
+    border-top:1px solid #c8c7cd;
+   /* border-bottom: 1px solid #c8c7cd;*/
+}
+.order-list-store {
+    height: 88px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    line-height: 88px;
+    font-size: 28px;
+}
+.order-store-img {
+    float: left;
+    margin-left: 30px;
+    margin-top: 36px;
+}
+.order-store-name {
+    margin-left: 30px;
+    font-size: 30px;
+}
+.order-list-content {
+    height: 260px;
+    width: 100%;
+    background-color: #fff;
+}
+.order-list-content-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 30px 30px 0 30px;
+}
+.order-list-content-title {
+    float: left;
+    margin-top: 30px;
+    font-size: 24px;
+    max-width: 400px;
+    line-height: 24px;
+    color: #333;
+}
+.order-list-content-sku{
+    margin-top: 30px;
+    color:#333333;
+}
+.order-list-content-value {
+    margin-top: 30px;
+    color: #ff6b50;
+}
+.order-list-amount {
+    font-size: 24px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+#value-blank {
+    border-top: none;
+}
+.order-list-value {
+    height: 88px;
+    background-color: #fff;
+    width: 100%;
+    color: #333;
+    font-size: 28px;
+    line-height: 88px;
+    border-top: 1px solid #c8c7cc;
+}
+.coupon-list-value {
+    height: 88px;
+    background-color: #fff;
+    width: 100%;
+    color: #333;
+    font-size: 28px;
+    line-height: 88px;
+}
+.order-list-value-summary {
+    border-top: 1px solid #c8c7cb;
+    padding-left: 30px;
+}
+.coupon-list-value-summary {
+    padding-left: 30px;
+}
+span.money-right {
+    float: right;
+    margin-right: 30px;
+    color: #ff6b50;
+    font-size: 24px;
+}
+.express-way-moneydetail {
+   padding-left: 30px;
+    height: 88px;
+    border-top: 1px solid #c8c7cc;
+    line-height: 88px;
+    color: #333;
+    font-size: 28px;
+    border-bottom: 1px solid #c8c7cc;
+    background-color: #fff;
+}
+.real-pay {
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    color: #ff6b50;
+    font-size: 28px;
+}
+span.money-coupon {
+    float: left;
+    color: #333333;
+    font-size: 28px;
+}
+.refund-description {
+    margin-top: 30px;
+    border-top: 1px solid #c8c7cc;
+    background-color: #fff;
+    border-bottom: 1px solid #c8c7cc;
+    float: left;
+}
+.problem-description {
+    padding: 30px 0 26px 30px;
+    font-size: 28px;
+    display: inline-block;
+}
+.description-box,.description-out {
+    height: 150px;
+    margin: 0 30px;
+    width: 690px;
+    background-color: #f5f5f7;
+    border: none;
+    border-radius: 10px;
+    line-height: 20px;
+    color:#262626;
+    padding-top: 22px;
+    padding-left: 16px;
+}
+.upload-image {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 28px;
+    padding-left: 30px;
+    float: left;
+    width: 100%;
+}
+.img-box {
+    width: 130px;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+        float: left;
+}
+.add-img {
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px 42px 14px 42px;
+}
+.imgupload-description-1,.imgupload-description-2 {
+    display: inline-block;
+    font-size: 20px;
+    color: #979696;
+    padding-bottom: 6px;
+    line-height: 20px;
+}
+.img-delete {
+    margin-top: 18px;
+    position: absolute;
+    margin-left: 134px;
+}
+.submit-refund {
+    float: left;
+    margin-top: 122px;
+    height: 80px;
+    color: #ff6b50;
+    font-size: 30px;
+    border-top: 1px solid #c8c7cc;
+    border-bottom: 1px solid #c8c7cc;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+}
+.submit-refund-word {
+    width: 190px;
+    height: 60px;
+    border: 2px solid #ff6b50;
+    border-radius: 4px;
+    line-height: 60px;
+    display: inline-block;
+    margin-top: 10px;
+}
+span.img-lists {
+    float: left;
+}
+.img_list {
+    width: 130px;
+    height: 130px;
+    margin: 30px 6px 30px 30px;
+}
+.contacter-buyness {
+    float: right;
+    margin-top: -70px;
+    margin-right: 30px;
+}
+.weui_mask.weui_mask_visible {
+z-index: 1000;
+}
+.weui_dialog.weui_dialog_visible {
+z-index: 1001;
+}
+.weui_dialog_hd {
+padding: 3em 0 .5em;
+}
+.weui_dialog_title {
+font-size: 40px;
+}
+.weui_dialog_bd {
+padding: 0 0;
+font-size: 30px;
+}
+.weui_dialog_ft {
+line-height: 100px;
+font-size: 35px;
+}
+.weui_btn_dialog.default, .weui_btn_dialog.primary {
+color: #0078ff;
+}
+a:hover,a:visited,a:link,a:active{
+    text-decoration: none;
+    color:#2d2c2c;
+}
+a{
+    color:#262626;
+}

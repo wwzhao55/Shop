@@ -1,0 +1,489 @@
+/*auth:wuwenjia*/
+.couponmanage,.add_coupon{
+	margin:30px 50px 70px 50px;
+	min-width: 1254px;
+	max-width: 100%;
+}
+.addcoupon,.returncoupon{
+	height:44px;
+	line-height: 44px;
+	border:none;
+	cursor: pointer;
+	width:140px;
+	border-radius: 22px;
+	color:#fff;
+	font-size:14px;
+	background-color: #a7a4a4;
+	float:right;
+	margin-top: 30px;
+}
+.addcoupon:hover,.returncoupon:hover{
+	background-color: #fb2d5c;
+}
+.couponheading{
+	color: #333;
+    font-size: 30px;
+    background-color: white;
+    padding:0px 30px;
+    height:100px;
+    line-height: 100px;
+    /*min-width: 1130px;*/
+}
+.couponselect{
+	width:200px;
+	height:44px;
+	padding:0 10px;
+	color:#333;
+	font-size:14px;
+	font-family: "微软雅黑regular";
+	margin-left: 5.54%;
+	border:1px solid #dcdcdc;
+}
+.coupon_search{
+    width:304px;
+    height:40px;
+    margin-left: 0.964%;
+    border:1px solid #dcdcdc;
+    line-height: 40px;
+    padding:0 40px;
+    vertical-align: middle;
+    color:#666;
+    font-size: 16px;
+}
+.btn-search{
+	width:66px;
+	height:40px;
+	color:#fff;
+	font-size:14px;
+	background-color: #fb2d5c;
+	line-height: 40px;
+	border:none;
+	margin-left: -10px;
+	position: relative;
+	top:-3px;
+}
+.img-search{
+	position: relative;
+	left: 55px;
+}
+.living,.over{
+	margin:20px 0;
+}
+.couponstatus{
+    color:#333;
+    font-size:30px;
+    padding-left:30px;
+}
+table{
+	width:100%;
+	margin-top: 20px;
+}
+.couponhead{
+    height:60px;
+    line-height: 60px;
+    font-size:18px;
+    color:#666;
+    background-color: #dcdcdc;
+    padding-left: 1.81%;
+    padding-right:4.34%;    
+    width:100%;
+}
+.couponhead th{
+	text-align: center;
+}
+
+table td{
+	text-align: center;
+	color:#666;
+	font-size:16px;
+	height:80px;
+}
+table td div{
+	color:#666;
+	font-size:14px;
+	text-align: left;
+	padding-left:40%;
+	margin-bottom: 10px;
+}
+table td span{
+	padding-right: 20px;
+	color:#fb2d5c;
+	cursor: pointer;
+}
+table a{
+	text-decoration: none;
+}
+.coupon_view{
+	width:30.12%;
+	margin-top: 30px;
+	border:1px solid #dcdcdc;
+	padding:20px;
+	background-color: #fff;
+	float:left;
+}
+.view_name{
+	margin-top: 8px;
+	color:#333;
+	font-size:36px;
+	float:left;
+}
+.share{
+	float:right;
+	margin-top: 10px;
+	color:#666;
+	font-size:24px;
+
+}
+.view_value{
+	padding-top: 20px;
+	color:#fb2d5c;
+	font-size:24px;
+	clear:left;
+	font-family: "微软雅黑Light";
+}
+.view_condition{
+	margin-top: 10px;
+	color:#666;
+	font-size:18px;
+	font-family: "微软雅黑Light";
+}
+.view_time{
+	margin-top: 40px;
+	color:#666;
+	font-size: 14px;
+	font-family: "微软雅黑Light";
+}
+.view_description{
+	margin-top: 80px;
+	color:#333;
+	font-size:36px;
+}
+.view_des_content{
+	margin-top: 20px;
+	color:#666;
+	font-size:18px;
+	font-family: "微软雅黑Light";
+}
+.coupon_detail{
+	float:left;
+	margin-top: 30px;
+	margin-left: 1.81%;
+}
+.coupongroup{
+	margin-bottom: 30px;
+}
+.coupongroup>span{
+	width:195px;
+	font-size: 24px;
+	color:#666;
+	display: inline-block;
+    text-align: right;
+    line-height: 48px;
+    margin-right: 10px;
+}
+.coupongroup input{
+	padding:0 20px;
+	color:#666;
+	font-size:24px;
+	font-family: "微软雅黑Light";
+	height:48px;
+	line-height: 48px;
+	border:1px solid #999;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+}
+.zhang{
+	color:#666;
+	font-size:24px;
+	font-family: "微软雅黑Light";
+	padding-left: 20px;
+}
+.zhi{
+	font-size: 24px;
+	color:#666;
+    line-height: 48px;
+    padding:0 16px;
+}
+.div_condition{
+	position: relative;
+	top:10px;
+	margin-bottom: 30px;
+}
+
+.div_condition img,.div_share img{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.div_condition span,.div_share span{
+	font-family: "微软雅黑Light";
+	font-size:18px;
+	color:#666;
+}
+.coupon_use_condition{
+	margin:0 10px;
+}
+.condition_title{
+	position: relative;
+	top:-40px;
+}
+.share_title{
+    position: relative;
+	top:-230px;
+}
+.question {
+	    color: #333;
+	    font-size: 26px;
+	    line-height: 110px;
+	    height:110px;
+	    padding-left:96px;
+	    font-weight: 500;
+	}
+.cancle-overdue {
+    margin-left: 154px;
+    margin-right: 30px;
+	}
+.cancle-overdue,.confirm-overdue{
+	border:none;
+	width:90px;
+	height:34px;
+	/*background-color: #fb2d5c;*/
+	color:#fff;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.cancle-del,.confirm-del{
+	border:none;
+	width:140px;
+	height:44px;
+	/*background-color: #fb2d5c;*/
+	color:#fff;
+	font-size: 16px;
+	border-radius: 4px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.cancle-del{
+	margin-left: 100px;
+	margin-right:20px;
+}
+.tip{
+	padding:0 20%;
+	font-size: 12px;
+	color:#c6c6c6;
+	line-height: 25px;
+	margin-top: 20px;
+}
+.link{
+	position: relative;
+}
+.copy{
+	width:650px;
+	height:100px;
+	border:1px solid #666;
+	position: absolute;
+	padding:10px;
+	margin-top: -50px;
+	margin-left: -550px;
+	background-color: #fff;
+	display: none;
+}
+.mention{
+	color:#999;
+	font-size: 16px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.copy_input{
+	width:470px;
+	height:44px;
+	line-height: 44px;
+	border:1px solid #666;
+	border-radius: 4px;
+	font-size: 18px;
+	color:#333;
+    padding:0 10px;
+}
+.btn-copy{
+	width:140px;
+	height:44px;
+	line-height: 44px;
+	border:none;
+	border-radius: 4px;
+	/*background-color: #fb2d5c;*/
+	color:#fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.coupon_gettimes{
+	width:49.56%;
+	padding:0 20px;
+	color:#666;
+	font-size:24px;
+	font-family: "微软雅黑Light";
+	height:48px;
+	line-height: 48px;
+	border:1px solid #999;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+}
+.coupongroup textarea{
+	/*width:81.24%;*/
+	height:210px;
+	line-height: 36px;
+	padding:20px 20px 30px;
+	font-family: "微软雅黑Light";
+	font-size:24px;
+	color:#666;
+	border:1px solid #999;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+
+}
+.share_introduce{
+	width:100%;
+}
+
+.description_title{
+	position: relative;
+	top:-185px;
+}
+.shop_id,.commodity_category{
+	width:35.5%;
+	padding:0 20px;
+	color:#666;
+	font-size:24px;
+	font-family: "微软雅黑Light";
+	height:48px;
+	line-height: 48px;
+	border:1px solid #999;
+	background-color: #f8f8f8;
+	border-radius: 4px;
+	
+}
+.shop_id{
+	margin-right: 3.36%;
+}
+.coupon_name{
+	width:49.5%;
+}
+.coupon_sum{
+	width: 35.4%;
+}
+.coupon_use_condition{
+	width: 136px;
+}
+.coupon_number{
+	width:47%;
+}
+.div_number,.div_share,.coupon_description{
+	width:75%;
+}
+.coupon_validity_start,.coupon_validity_end{
+    width:44.5%;
+}
+.btn_cancle,.btn_publish{
+	border:none;
+	/*background-color: #fb2d5c;*/
+	color:#fff;
+	width:160px;
+	height:55px;
+	line-height: 55px;
+	font-size:18px;
+	border-radius: 4px;
+	margin-top: 60px;
+	text-align: center;
+}
+.btn_cancle{
+	margin-left: 40%;
+	float:left;
+}
+.btn_publish{
+	margin-left: 4.42%;
+
+}
+ .divide-page{
+    text-align: center;
+}
+.divide-page .pagination{
+    margin-top:100px;
+    margin-bottom: 92px;
+    font-size: 30px;
+}
+
+.divide-page .pagination li:first-child span,.divide-page .pagination li:last-child a,.divide-page .pagination li:first-child a,.divide-page .pagination li:last-child span{
+	width: 60px;
+    height:60px;
+    text-align: center;
+    color: #ccc;
+    display: inline-block;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	width: 60px;
+    height:60px;
+    text-align: center;
+    background-color: #fb2d5c;
+    display: inline-block;
+    color:#fff;
+    border-color:#dcdcdc;
+}
+.divide-page .pagination li:not(last-child) a,.divide-page .pagination li:not(first-child) a{
+	width: 60px;
+    height:60px;
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
+    color:#333;
+    border-color:#dcdcdc;
+}
+.divide-page .pagination li{
+	margin-right: 20px;
+	display: inline-block;
+}
+.toast-position-top-right{
+	position: fixed;
+	top:400px;
+	right:45%;
+	width:150px;
+}
+.toast-item p{
+	text-align: left;
+	margin-left: 35px;
+	font-size: 20px;
+}
+.jedatebox .jedatetop{
+	background: #fb2d5c;
+}
+.jedatebox{
+	border: 1px #fb2d5c solid;
+}
+.jedatebot .jedatebtn span{
+	background-color: #fb2d5c;
+}
+.jedatebox .jedaul li.action{
+	background: #fb2d5c;
+}
+.jedatebox .jedaul li.prevdate, .jedatebox .jedaul li.nextdate{
+	color:#f88;
+}
+.jedatesety .ymdropul li.action, .jedatesetm .ymdropul li.action{
+	background-color: #fb2d5c;
+}
+.jedatetopym p span.jedateymchok{
+	background-color: #fb2d5c;
+}
+.jedateh p.action, .jedatems p.action{
+	background-color: #fb2d5c;
+}
+.add-success{
+		font-size: 24px;
+		color: #333;
+}
+.error-mention{
+	font-family: "微软雅黑regular";
+	font-size:20px;
+	color:#666;
+	padding-left:30px;
+	padding-bottom: 20px;
+}

@@ -1,0 +1,206 @@
+/*auth:wuwenjia*/
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	min-width: 1200px;
+}
+.login-box{
+	margin:0 auto;
+	margin-top: 184px;
+	width:62.5%;
+	height:550px;
+	border:none; 
+	border-bottom: 1px solid #d3d8d9;
+}
+.login-box-logo{
+	padding-left:30%;
+	/*margin-bottom: 30px;*/
+    border:none; 
+	border-bottom: 1px solid #dcdcdc;
+   padding-bottom: 36px;
+
+}
+.login-box-word{
+	margin-left: 0.83%;
+	font-size:22px;	
+	font-family:微软雅黑 ;
+	color:#333;
+	position: relative;
+    top: 15px;
+}
+.login-box-msg{
+	padding:0 25%;
+	margin-top: 60px;
+}
+.login-box-msg-left{
+	float:left;
+	width:100%;
+	min-width: 500px;
+}
+input{
+	border:1px solid #dcdcdc;
+	border-radius: 4px;
+	color:#999;
+	font-size:20px;
+	font-weight: lighter;
+	font-family:微软雅黑 ;
+	padding:0 10px;
+}
+
+#phoneNumber,#loginKey{
+	width:71.43%;
+	height:46px;
+	-webkit-box-shadow : 0 0 0px 1000px white inset ;
+	-webkit-text-fill-color: #999;
+}
+#verification_code{
+	width:40.18%;
+	height:46px;
+	margin-right: 2.04%;
+}
+#code{
+	width:28%;
+	height:40px;
+	background-color: #F2F2F2;
+	border:none;
+}
+.msg-detail{
+	margin-bottom: 30px;
+}
+/*.login_code{
+  margin-right: 9%;
+}*/
+#checkBox1{
+	margin-left: 26%;
+	cursor: pointer;
+}
+.autoLogin{
+	font-size: 18px;
+	font-family:微软雅黑 ;
+	color:#999;
+	margin-left: 2.04%;
+}
+.forget_key{
+	font-size: 18px;
+	font-family:微软雅黑 ;
+	color:#fb2d5c;
+	margin-left: 4.08%;
+	text-decoration:none;
+}
+
+.login-box-msg-right{
+	width:49.26%;
+	float:left;
+	height: 326px;
+}
+#code_box{
+	margin-left: 16%;
+	width:50%;
+	background-color:#F2F2F2;
+}
+#code_img{
+	width:76%;
+	height: 190px;
+	margin-left: 12%;
+	background-color:white;
+}
+.someDetail{
+	margin-left: 0%;
+	font-size: 0.9VW;
+	font-family:微软雅黑 ;
+	color:#888888;
+}
+#app_introduce{
+    margin-top: 60px;
+}
+#btn_login{
+	width:70%;
+    /*margin-left: 22%;*/
+    height:46px;
+    background-color: #fb2d5c;
+    color:#fff;
+    font-size:24px;
+    font-family:微软雅黑 ;
+    border-radius: 4px;
+}
+#btn_login:hover{
+	cursor:pointer;
+}
+@media(min-width: 1200px){
+   .loginer-msg{
+	font-size: 20px;
+    color:#333;
+    font-family:微软雅黑 ;
+    font-weight: normal;
+    margin-right: 8.16%;
+    width:17.3%;
+}
+#btn_login{
+	width:70%;
+    margin-left: 20%;
+}
+
+#code_box{
+	margin-left: 16%;
+	width:250px;
+	background-color:#F2F2F2;
+	height: 310px;
+}
+#code_img{
+	width:76%;
+	height: 190px;
+	margin-left: 12%;
+	background-color:white;
+	position: relative;
+	top:40px;
+}
+
+.login-box-msg-right{
+	width:49.26%;
+	float:left;
+	height: 306px;
+}
+}
+@media(min-width: 1680px){
+    .loginer-msg{
+	font-size: 20px;
+    color:#333;
+    font-family:微软雅黑 ;
+    font-weight: normal;
+    margin-right: 8.16%;
+    width:17.3%;
+}
+/*.login_code{
+  margin-right: 8.5%;
+}*/
+#btn_login{
+	width:70%;
+    margin-left: 26%;
+}
+
+
+.login-box-msg-right{
+	width:49.26%;
+	float:left;
+	height: 336px;
+}
+#code_box{
+	margin-left: 16%;
+	width:50%;
+	background-color:#F2F2F2;
+	height: 326px;
+}
+
+}
+.count{
+		margin:0 auto;
+     	width:62.5%;
+     	padding-left: 17.5%;
+}
+.picChange{
+	width: 23%;
+	font-size: 0.8vw;
+
+}

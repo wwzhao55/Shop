@@ -1,0 +1,56 @@
+.luck-case{
+    background:#fff;
+    margin:10px -15px;
+    padding:15px 5px;   
+}
+
+.luck-single{
+    padding:0 10px 20px 10px;
+}
+.luck-main{
+    border:3px solid #628f2a;
+    padding:15px;
+    background:#628f2a;
+    height:95px;  
+}
+.luck-img img{
+    width:100%;   
+}
+.luck-txt{
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+    color:#fff;
+    text-shadow:2px 2px 5px #000;
+    padding-bottom:15px;   
+}
+.luck-num{
+    color:#fff;
+    font-size:12px;
+    text-align:center; 
+}
+.active .luck-main{
+    border:3px solid #f0ad4e;
+    -webkit-box-shadow:0px 0px 5px #f0ad4e;
+    -moz-box-shadow:0px 0px 5px #f0ad4e;
+    box-shadow:0px 0px 5px #f0ad4e;
+}
+
+.luck-btn-case{
+    text-align:center;
+    height:115px;
+    padding:30px 15px 20px 15px;   
+}
+.luck-btn{
+    width:200px;
+    max-width:100%;   
+}
+
+.luck-pop-main{
+    background:#628f2a;
+    color:#fff;
+    border:3px solid #f0ad4e;
+    -webkit-box-shadow:0px 0px 5px #f0ad4e;
+    -moz-box-shadow:0px 0px 5px #f0ad4e;
+    box-shadow:0px 0px 5px #f0ad4e; 
+}
